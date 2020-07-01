@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="127a260a-8b1d-4356-a432-f418729c62bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e3lMzzLiotdLD3bz2ZxKX6f5SS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TreeBinary">
+    <configuration name="ArvoreBinariaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArvoreBinariaApp" />
+      <module name="p2_estrutura_de_dados" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <module name="p2_estrutura_de_dados" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p2.TreeBinary" />
+      <module name="p2_estrutura_de_dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TreeBinary" />
+        <item itemvalue="Application.ArvoreBinariaApp" />
+        <item itemvalue="Application.Tree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="127a260a-8b1d-4356-a432-f418729c62bf" name="Default Changelist" comment="" />
+      <created>1593558113529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593558113529</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1971" y="89" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593563156407">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state x="1971" y="89" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593563156407" />
+    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser" timestamp="1593564543095">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593564543095" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1593567705359">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705359" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1593567705358">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1593567705358">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1593567705358">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1593567188943">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1593567188943">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1593567188943">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1593567188943">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p2/TreeBinary.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p2/TreeBinary.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
