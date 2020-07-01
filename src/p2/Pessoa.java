@@ -31,4 +31,52 @@ public class Pessoa implements Serializable {
     public String nome;
     public List<Endereco> enderecos;
     public List<Veiculo> veiculos;
+
+    public long getItem() {
+        return item;
+    }
+
+    public void setItem(long item) {
+        this.item = item;
+    }
+
+    public Pessoa getDir() {
+        return dir;
+    }
+
+    public void setDir(Pessoa dir) {
+        this.dir = dir;
+    }
+
+    public Pessoa getEsq() {
+        return esq;
+    }
+
+    public void setEsq(Pessoa esq) {
+        this.esq = esq;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public List<Endereco> getEnderecos() {
+        return enderecos;
+    }
+
+    public void setEnderecos(List<Endereco> enderecos) {
+        this.enderecos = enderecos;
+    }
+
+    public List<Veiculo> getVeiculos() {
+        return veiculos;
+    }
+
+    public void setVeiculos(List<Veiculo> veiculos) {
+        this.veiculos = veiculos;
+    }
 }

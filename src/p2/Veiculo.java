@@ -11,4 +11,11 @@ public class Veiculo implements Serializable {
         this.nameVeiculo = nameVeiculo;
     }
 
+    public String getNameVeiculo() {
+        return nameVeiculo;
+    }
+
+    public void setNameVeiculo(String nameVeiculo) {
+        this.nameVeiculo = nameVeiculo;
+    }
 }

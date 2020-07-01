@@ -10,10 +10,12 @@ public class Tree {
     }
 
     public void inserir(Pessoa p){
-        Pessoa novo = new Pessoa(p); // cria um novo Nó
+        //Pessoa novo = new Pessoa(p); // cria um novo Nó
+        Pessoa novo = p;
         /*novo.item = p.item; // atribui o valor recebido ao item de dados do Nó*/
         novo.dir = null;
         novo.esq = null;
+        root = deserializeObject();
 
         if (root == null) {
             root = novo;
@@ -26,6 +28,7 @@ public class Tree {
                     atual = atual.esq;
                     if (atual == null) {
                         anterior.esq = novo;
+                        serializeObject();
                         return;
                     }
                 }  // fim da condição ir a esquerda
@@ -33,15 +36,18 @@ public class Tree {
                     atual = atual.dir;
                     if (atual == null) {
                         anterior.dir = novo;
+                        serializeObject();
                         return;
                     }
                 } // fim da condição ir a direita
             } // fim do laço while
         } // fim do else não raiz
+
     }
 
     public Pessoa buscar(long chave) {
         Pessoa atual = deserializeObject();
+        if(atual == null) return null;
         while (atual.item != chave) { // enquanto nao encontrou
             if(chave < atual.item ) atual = atual.esq; // caminha para esquerda
             else atual = atual.dir; // caminha para direita
@@ -50,13 +56,27 @@ public class Tree {
         return atual; // terminou o laço while e chegou aqui é pq encontrou item
     }
 
+    public Pessoa atualizar(long chave, Pessoa newPessoa) {
+        //this.root = deserializeObject();
+        Pessoa atual = deserializeObject();
+        Pessoa inicial = deserializeObject();
+        while (atual.item != chave) { // enquanto nao encontrou
+            if(chave < atual.item ) atual = atual.esq; // caminha para esquerda
+            else atual = atual.dir; // caminha para direita
+            if (atual == null) return null; // encontrou uma folha -> sai
+        } // fim laço while
+        atual = newPessoa;
+        return atual; // terminou o laço while e chegou aqui é pq encontrou item
+
+    }
+
     public boolean remover(long v) {
         //if (root == null) return false; // se arvore vazia
-
-        Pessoa atual = deserializeObject();
-        Pessoa pai = deserializeObject();
+        this.root = deserializeObject();
+        if (root == null) return false;
+        Pessoa atual = root;
+        Pessoa pai = root;
         boolean filho_esq = true;
-        Pessoa root = deserializeObject();
 
         // ****** Buscando o valor **********
         while (atual.item != v) { // enquanto nao encontrou
@@ -64,8 +84,7 @@ public class Tree {
             if(v < atual.item ) { // caminha para esquerda
                 atual = atual.esq;
                 filho_esq = true; // é filho a esquerda? sim
-            }
-            else { // caminha para direita
+            } else { // caminha para direita
                 atual = atual.dir;
                 filho_esq = false; // é filho a esquerda? NAO
             }
@@ -110,7 +129,7 @@ public class Tree {
             sucessor.esq = atual.esq; // acertando o ponteiro a esquerda do sucessor agora que ele assumiu
             // a posição correta na arvore
         }
-
+        serializeObject();
         return true;
     }
 
@@ -139,6 +158,89 @@ public class Tree {
         }
         updatedSerializeObject(sucessor);
         return sucessor;
+    }
+
+    public void caminhar() {
+        root = deserializeObject();
+        System.out.print("\n Exibindo em ordem: ");
+        inOrder(root);
+        System.out.print("\n Exibindo em pos-ordem: ");
+        posOrder(root);
+        System.out.print("\n Exibindo em pre-ordem: ");
+        preOrder(root);
+        System.out.print("\n Altura da arvore: " + altura(root));
+        System.out.print("\n Quantidade de folhas: " + folhas(root));
+        System.out.print("\n Quantidade de Nós: " + contarNos(root));
+        if (root != null ) {  // se arvore nao esta vazia
+            System.out.print("\n Valor minimo: " + min().item);
+            System.out.println("\n Valor maximo: " + max().item);
+        }
+    }
+
+    public void inOrder(Pessoa atual) {
+        if (atual != null) {
+            inOrder(atual.esq);
+            System.out.print(atual.item + " ");
+            inOrder(atual.dir);
+        }
+    }
+
+    public void preOrder(Pessoa atual) {
+        if (atual != null) {
+            System.out.print(atual.item + " ");
+            preOrder(atual.esq);
+            preOrder(atual.dir);
+        }
+    }
+
+    public void posOrder(Pessoa atual) {
+        if (atual != null) {
+            posOrder(atual.esq);
+            posOrder(atual.dir);
+            System.out.print(atual.item + " ");
+        }
+    }
+
+    public int altura(Pessoa atual) {
+        if(atual == null || (atual.esq == null && atual.dir == null))
+            return 0;
+        else {
+            if (altura(atual.esq) > altura(atual.dir))
+                return ( 1 + altura(atual.esq) );
+            else
+                return ( 1 + altura(atual.dir) );
+        }
+    }
+
+    public int folhas(Pessoa atual) {
+        if(atual == null) return 0;
+        if(atual.esq == null && atual.dir == null) return 1;
+        return folhas(atual.esq) + folhas(atual.dir);
+    }
+
+    public int contarNos(Pessoa atual) {
+        if(atual == null)  return 0;
+        else return ( 1 + contarNos(atual.esq) + contarNos(atual.dir));
+    }
+
+    public Pessoa min() {
+        Pessoa atual = root;
+        Pessoa anterior = null;
+        while (atual != null) {
+            anterior = atual;
+            atual = atual.esq;
+        }
+        return anterior;
+    }
+
+    public Pessoa max() {
+        Pessoa atual = root;
+        Pessoa anterior = null;
+        while (atual != null) {
+            anterior = atual;
+            atual = atual.dir;
+        }
+        return anterior;
     }
 
     public void updatedSerializeObject(Pessoa root) {

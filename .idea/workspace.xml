@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="127a260a-8b1d-4356-a432-f418729c62bf" name="Default Changelist" comment="" />
+    <list default="true" id="127a260a-8b1d-4356-a432-f418729c62bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2/TreeBinaryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/ArvoreBinariaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/No.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/TreeBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p2_estrutura_de_dados/p2/Veiculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rootPessoa.ser" beforeDir="false" afterPath="$PROJECT_DIR$/rootPessoa.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArvoreBinariaApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/No.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/TreeBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Veiculo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e3lMzzLiotdLD3bz2ZxKX6f5SS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +48,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TreeBinary">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projetos_desenvolvimento\John Deere\p2_estrutura_de_dados" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TreeBinaryApp">
     <configuration name="ArvoreBinariaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArvoreBinariaApp" />
       <module name="p2_estrutura_de_dados" />
@@ -38,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p2.TreeBinary" />
+    <configuration name="TreeBinaryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p2.TreeBinaryApp" />
       <module name="p2_estrutura_de_dados" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeBinary" />
+        <item itemvalue="Application.TreeBinaryApp" />
         <item itemvalue="Application.ArvoreBinariaApp" />
         <item itemvalue="Application.Tree" />
       </list>
@@ -89,67 +121,45 @@
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
     <state x="1971" y="89" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593563156407" />
-    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser" timestamp="1593564543095">
+    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser" timestamp="1593643188052">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593564543095" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1593567705359">
+    <state x="2011" y="2" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593643188052" />
+    <state x="1936" y="33" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593644881917">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705359" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1593567705358">
+    <state x="1936" y="33" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593644881917" />
+    <state width="1637" height="343" key="GridCell.Tab.0.bottom" timestamp="1593646001780">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1593567705358">
+    <state width="1637" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593646001780" />
+    <state width="1637" height="343" key="GridCell.Tab.0.center" timestamp="1593646001779">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1593567705358">
+    <state width="1637" height="343" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593646001779" />
+    <state width="1637" height="343" key="GridCell.Tab.0.left" timestamp="1593646001778">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567705358" />
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1593567188943">
+    <state width="1637" height="343" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593646001778" />
+    <state width="1637" height="343" key="GridCell.Tab.0.right" timestamp="1593646001779">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
-    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1593567188943">
+    <state width="1637" height="343" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593646001779" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1593637460550">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
-    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1593567188943">
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593637460550" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1593637460550">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
-    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1593567188943">
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593637460550" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1593637460550">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593567188943" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/p2/TreeBinary.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/p2/TreeBinary.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593637460550" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1593637460550">
+      <screen x="1366" y="-220" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1593637460550" />
   </component>
 </project>

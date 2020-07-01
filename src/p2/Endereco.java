@@ -10,4 +10,12 @@ public class Endereco implements Serializable {
     public Endereco(String nameEndereco) {
         this.nameEndereco = nameEndereco;
     }
+
+    public String getNameEndereco() {
+        return nameEndereco;
+    }
+
+    public void setNameEndereco(String nameEndereco) {
+        this.nameEndereco = nameEndereco;
+    }
 }
