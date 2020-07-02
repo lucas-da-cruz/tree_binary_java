@@ -11,3 +11,6 @@ Operação
 Deverá ser construído um aplicativo que possa adquirir diferentes blocos de dados e armazená-los em um arquivo de formato binário, o qual posteriormente deverá ser carregado para a memória.
 
 Os blocos de dados citados estão organizados em TAD (tipos abstrados de dados), os deverão ser implementados no formato de classes. Serão utilizadas 3 TADs com diferentes quantidades de bytes.
+
+# Contexto aplicado
+Exemplo de um contexto: Existem pessoas de (TAD1) possuidoras de veículos. Essas pessoas residem em endereços (TAD2) e podem residir em localidades diferentes. Os veículos possuídos pelas pessoas têm seus registrados associados aos endereços de residências.
